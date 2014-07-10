@@ -99,6 +99,8 @@ int main()
 		int error=teststring(input,k);
 		if(error!=0)
 			cout<<"Error at position "<<error<<endl;
+		else
+			cout<<"No error"<<endl;
 	}
 	return 0;
 }
